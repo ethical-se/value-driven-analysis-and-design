@@ -1,0 +1,6 @@
+remote_theme: pages-themes/primer@v0.6.0
+plugins:
+- jekyll-remote-theme
+
+title: [Value-Driven Analysis and Design (VDAD)]
+description: [Technology should support humanity and avoid harming people and their values; we want to help engineers and technology creators create solutions that promote positive values and aim to reduce harm to our society and people. The Value-Driven Analysis and Design (VDAD) process aims to combine value-driven approaches with state-of-the-art software engineering practices such as Domain-Driven Design (DDD).]

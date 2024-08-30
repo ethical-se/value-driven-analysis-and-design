@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% if site.title and site.title != page.title and page.url != "/" %}
+      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      {% endif %}
+      <strong><a href="{{ "/process" | absolute_url }}">VDAD Process</a> | <a href="{{ "/practices" | absolute_url }}">Practices</a> | <a href="{{ "/user-stories" | absolute_url }}">Why VDAD? (User Stories)</a> | <a href="{{ "/tools" | absolute_url }}">Tools</a> | <a href="{{ "/related-work" | absolute_url }}">Background</a> | <a href="{{ "/glossary" | absolute_url }}">Glossary</a></strong>
+
+      {{ content }}
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-left text-gray">
+        This work is open source and licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a href="https://github.com/ethical-se/value-driven-analysis-and-design"><strong>Open on GitHub</strong></a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

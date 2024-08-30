@@ -1,0 +1,20 @@
+# Github page
+_site
+.sass-cache
+.jekyll-metadata
+*.gem
+.bundle
+vendor/bundle
+
+Gemfile.lock
+
+# IDEs
+.idea/
+**/*.iml
+
+# Output dirs
+**/out
+**/bin
+**/target
+**/src-gen
+

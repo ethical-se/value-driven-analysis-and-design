@@ -1,0 +1,74 @@
+
+BoundedContext ValueDrivenAnalysisAndDesign {
+
+    Module Common {
+
+        Entity Bounded_Context {
+            -- "creates positive value or harm >" @EthicalValue
+            -- "has >" @ProjectStakeholder
+
+            -- "implements >" @ArchitectureAndDesign
+        }
+
+        Entity ProjectStakeholder {
+            String name;
+            - StakeholderType ^type;
+
+            -- "is concerned by values >" @EthicalValue
+            -- "prioritizes values >" @StakeholderValuePriority
+        }
+
+        enum StakeholderType {
+            VISIBLE, INVISIBLE;
+        }
+
+        Entity EthicalValue {
+            -- "has different priority to different stakeholders >" @StakeholderValuePriority
+        }
+
+        Entity PositiveValue extends EthicalValue {
+
+        }
+
+        Entity Harm extends EthicalValue {
+
+        }
+
+        ValueObject StakeholderValuePriority {
+            - ProjectStakeholder ^stakeholder;
+            - EthicalValue value;
+            - Priority ^priority;
+        }
+
+        enum Priority {
+            H, M, L;
+        }
+
+        Entity HarmMitigation {
+            String ^description;
+            - ProjectStakeholder ^stakeholder;
+
+            -- "stakeholder requests mitigation for created harm >" @Harm
+        }
+
+        Entity DigitalizationDecision {
+            - DecisionForm form;
+            - List<StakeholderValuePriority> ^values -- "values influencing decision";
+            - List<HarmMitigation> mitigations -- "planned mitigations"
+        }
+
+        Entity NFR {
+            -- "are derived from defined mitigations >" @HarmMitigation
+        }
+
+        Entity ArchitectureAndDesign {
+            -- "is influenced by NFRs derived from values >" @NFR
+        }
+
+        enum DecisionForm {
+            ADR, Y_STATEMENT;
+        }
+
+    }
+
+}

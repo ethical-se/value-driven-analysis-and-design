@@ -1,0 +1,71 @@
+@startuml
+
+skinparam componentStyle uml2
+
+package Common {
+	class Bounded_Context <<(E,DarkSeaGreen) Entity>> {
+	}
+	class Stakeholder <<(E,DarkSeaGreen) Entity>> {
+		String name
+		StakeholderType type
+	}
+	enum StakeholderType {
+		VISIBLE
+		INVISIBLE
+	}
+	class Value <<(E,DarkSeaGreen) Entity>> {
+	}
+	class PositiveValue <<(E,DarkSeaGreen) Entity>> {
+	}
+	class Harm <<(E,DarkSeaGreen) Entity>> {
+	}
+	class StakeholderValuePriority <<(V,DarkSeaGreen) Value Object>> {
+		Stakeholder stakeholder
+		Value value
+		Priority priority
+	}
+	enum Priority {
+		H
+		M
+		L
+	}
+	class HarmMitigation <<(E,DarkSeaGreen) Entity>> {
+		String description
+		Stakeholder stakeholder
+	}
+	class DigitalizationDecision <<(E,DarkSeaGreen) Entity>> {
+		DecisionForm form
+		List<StakeholderValuePriority> values
+		List<HarmMitigation> mitigations
+	}
+	class NFR <<(E,DarkSeaGreen) Entity>> {
+	}
+	class ArchitectureAndDesign <<(E,DarkSeaGreen) Entity>> {
+	}
+	enum DecisionForm {
+		ADR
+		Y_STATEMENT
+	}
+}
+StakeholderValuePriority --> Value : value
+Stakeholder --> StakeholderType : type
+Bounded_Context -- Stakeholder : has >
+NFR -- HarmMitigation : are derived from defined mitigations >
+Value -- StakeholderValuePriority : has different priority to different stakeholders >
+StakeholderValuePriority --> Stakeholder : stakeholder
+DigitalizationDecision "1" o--> "*" HarmMitigation : planned mitigations
+HarmMitigation -- Harm : stakeholder requests mitigation for created harm >
+Bounded_Context -- ArchitectureAndDesign : implements >
+Stakeholder -- Value : is concerned by values >
+Bounded_Context -- Value : creates positive value or harm >
+HarmMitigation --> Stakeholder : stakeholder
+Stakeholder -- StakeholderValuePriority : prioritizes values >
+StakeholderValuePriority --> Priority : priority
+DigitalizationDecision "1" o--> "*" StakeholderValuePriority : values influencing decision
+ArchitectureAndDesign -- NFR : is influenced by NFRs derived from values >
+DigitalizationDecision --> DecisionForm : form
+PositiveValue --|> Value
+Harm --|> Value
+
+
+@enduml
