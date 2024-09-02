@@ -41,6 +41,6 @@ The following overview lists all practices and artifacts that support you in the
 | **Step 7**: Design Software Architecture                | [Architecture Decision Records (ADRs)](https://adr.github.io/), architecture documentation (e.g. filled-out [arc42](https://www.arc42.de/) template), <!-- DPR links? --> Strategic and Tactic DDD (i.e., Bounded Contexts and Domain Models with Aggregates, Entities and other DDD patterns); use [Context Mapper](https://contextmapper.org) for modelling) for architecture and design, working software |
 
 
-[^1]: https://www.value-based-engineering.com/
+[^1]: <https://www.value-based-engineering.com/>
 [^2]: IEEE Standard Model Process for Addressing Ethical Concerns during System Design, 2021, <https://ieeexplore.ieee.org/document/9536679>
 [^3]: _Published EuroPLoP paper coming soon ..._

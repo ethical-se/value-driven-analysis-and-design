@@ -69,5 +69,5 @@ so that economic impact such as sales losses and reputation damage can be avoide
 Note that the above collection of user stories is not exhaustive/complete. Feel free to [contribute](CONTRIBUTING.md) your ideas.
 
 
-[^1]: IEEE Standard Model Process for Addressing Ethical Concerns during System Design, 2021, https://ieeexplore.ieee.org/document/9536679 
+[^1]: IEEE Standard Model Process for Addressing Ethical Concerns during System Design, 2021, <https://ieeexplore.ieee.org/document/9536679>
 [^2]: _Value Lead_, ESE repository, <https://github.com/ethical-se/ese-practices/blob/main/roles/ESE-ValueLead.md>

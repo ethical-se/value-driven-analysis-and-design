@@ -109,6 +109,6 @@ Stakeholder Mapping is a well-known practice and promoted by several tools[^1][^
 [^1]: <https://www.mural.co/blog/stakeholder-mapping>
 [^2]: <https://miro.com/blog/stakeholder-mapping/>
 [^3]: <https://simplystakeholders.com/stakeholder-mapping/>
-[^4]: _Ethics in Software Engineering: A Systematic Literature Review_, Razieh Alidoosti, Patricia Lago, Maryam Razavian, Antony Tang, https://hdl.handle.net/1871.1/6babced3-4bd2-443e-8c1b-b0593a4cb6e1
+[^4]: _Ethics in Software Engineering: A Systematic Literature Review_, Razieh Alidoosti, Patricia Lago, Maryam Razavian, Antony Tang, <https://hdl.handle.net/1871.1/6babced3-4bd2-443e-8c1b-b0593a4cb6e1>
 [^5]: IEEE Standard Model Process for Addressing Ethical Concerns during System Design, 2021, <https://ieeexplore.ieee.org/document/9536679> 
 [^6]: Value-Based Engineering - A Guide to Building Ethical Technology for Humanity, Sarah Spiekermann, 2023, <https://doi.org/10.1515/9783110793383>
