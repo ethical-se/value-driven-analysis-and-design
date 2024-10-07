@@ -4,8 +4,8 @@ The Value-Driven Analysis and Design (VDAD) process and this repository have bee
 
 ## VDAD-Related Papers
 
- * _Value-Driven Analysis and Design: Applying Domain-driven Practices in Ethical Software Engineering_, Stefan Kapferer, Olaf Zimmermann and Mirko Stocker, EuroPLoP 2024, _to be published soon_
- * _Towards responsible software engineering: combining value-based processes, agile practices, and green metering_, Stefan Kapferer, Mirko Stocker and Olaf Zimmermann, IEEE International Symposium on Technology and Society (ISTAS 2024), _to be published soon_
+ * _Value-Driven Analysis and Design: Applying Domain-Driven Practices in Ethical Software Engineering_, Stefan Kapferer, Olaf Zimmermann and Mirko Stocker, EuroPLoP 2024, [Paper](/assets/papers/ValueDrivenAnalysisAndDesign-VDAD-EuroPLoP2024.pdf)
+ * _Towards responsible software engineering: combining value-based processes, agile practices, and green metering_, Stefan Kapferer, Mirko Stocker and Olaf Zimmermann, IEEE International Symposium on Technology and Society (ISTAS 2024), [Pre-Print](/assets/papers/TowardsResponsibleSoftwareEngineering-ISTAS2024.pdf)
 
 ## Related Approaches and Processes
 
