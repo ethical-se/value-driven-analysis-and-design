@@ -19,7 +19,7 @@ The Value-Driven Analysis and Design (VDAD) process and this repository have bee
  * Software Development Impact Statement (SoDIS) process:
    * Gotterbarn, D., Rogerson, S., "Responsible Risk Assessment with Software Development: Creating the Software Development Impact Statement". Communications of the Association for Information Systems, 15, 2005 ([PDF](https://doi.org/10.17705/1CAIS.01540))
  * Consequence Scanning – an agile practice for responsible innovators: <https://doteveryone.org.uk/project/consequence-scanning/>
- * Wohlrab, D., Herrmann, M., Lazik, C., Wyrich, M., Nunes, I., Schneider, K., Gren, L., Heinrich, L.: [Supporting value-aware software engineering through traceability and value tactics](https://rebekkaa.github.io/files/Wohlrab2024_PROFES.pdf)
+ * Wohlrab, D., Herrmann, M., Lazik, C., Wyrich, M., Nunes, I., Schneider, K., Gren, L., Heinrich, R.: [Supporting value-aware software engineering through traceability and value tactics](https://rebekkaa.github.io/files/Wohlrab2024_PROFES.pdf)
 
 **_to be continued_**
 
