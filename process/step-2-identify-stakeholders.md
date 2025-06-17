@@ -3,7 +3,7 @@
 _TL;DR:_ Recognize all (visible and invisible) stakeholders. 
 
 ## Goal and Approach
-The goal of this second step is to identify all stakeholders (visible and invisible) of the system or feature; meaning all human beings that are somehow affected by the system. A challenge in this step is the identification of _invisible stakeholders_ – stakeholders that do not directly interact with the system. Visible stakeholders are usually already identified when conducting functional requirements with User Stories or Use Cases. Identifying invisible stakeholders means anticipating who might be indirectly affected by the system. Consulting existing stakeholder classifications[^1] might help not forgetting important stakeholder groups.
+The goal of this second step is to identify all stakeholders (visible and invisible) of the system or feature; meaning all human beings that are somehow affected by the system. A challenge in this step is the identification of _invisible stakeholders_ – stakeholders that do not directly interact with the system. Visible stakeholders are usually already identified when conducting functional requirements with User Stories or Use Cases. Identifying invisible stakeholders means anticipating who might be indirectly affected by the system. Consulting existing stakeholder classifications[^1] (see Figure 5 on page 10 in [PDF](https://research.vu.nl/ws/portalfiles/portal/179576160/Ethics_in_SE_TR_2022.pdf)) might help not forgetting important stakeholder groups.
 
 We recommend applying the [Stakeholder Mapping](./../practices/stakeholder-mapping.md) practice.
 
@@ -29,7 +29,7 @@ Stakeholders can be written down textually or documented visually with tools suc
  * [Next step: Identify Values per Stakeholder](./step-3-identify-values-per-stakeholder.md)
 
 
-[^1]: _Ethics in Software Engineering: A Systematic Literature Review_, Razieh Alidoosti, Patricia Lago, Maryam Razavian, Antony Tang, <https://hdl.handle.net/1871.1/6babced3-4bd2-443e-8c1b-b0593a4cb6e1>
+[^1]: _Ethics in Software Engineering: A Systematic Literature Review_, Razieh Alidoosti, Patricia Lago, Maryam Razavian, Antony Tang, <https://research.vu.nl/en/publications/ethics-in-software-engineering-a-systematic-literature-review>
 [^2]: _Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software_, Stefan Hofer, Henning Schwentner, 2021, <https://www.informit.com/store/domain-storytelling-a-collaborative-visual-and-agile-9780137458912>
 [^3]: <http://ziobrando.blogspot.com/2013/11/introducing-event-storming.html>
 [^4]: <https://www.agilealliance.org/glossary/personas/>
