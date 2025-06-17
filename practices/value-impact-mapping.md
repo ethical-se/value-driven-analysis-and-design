@@ -48,6 +48,12 @@ For each harmed value identified in the previous step, think about whether there
 
 Together with your stakeholders, try to find adjusted solutions that still fulfill your (non-)functional requirements, but do not harm the identified values as much as the solution you had in mind before. This can also mean that you agree that some features should not be implemented.
 
+*In a third step, identify values that are (still) conflicting and try to prioritize with the stakeholders:*
+
+### Identify conflicting values, and try to prioritize them together with the stakeholders.
+
+Some of the identified values may conflict with each other. Identify these conflicts between values and stakeholders. Work with the stakeholders to figure out what is more important to them by asking them to prioritise. The aim is to reduce conflicts and/or find compromises that all stakeholders can agree on. Additionally, identify 'no-gos' for stakeholders: values that are so important to them (high priority) that they would not use, develop or maintain the system/feature if the value were ignored.
+
 ## Notations
 
 ### Graphical Notation
